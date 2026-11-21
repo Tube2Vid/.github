@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: API documentation
+    url: https://tube2vid.com/docs
+    about: Endpoints, authentication, errors and examples.
+  - name: A download fails on a specific site
+    url: https://tube2vid.com/status
+    about: Check live platform status first; site-specific failures are fixed server-side.
+  - name: Help center and account support
+    url: https://tube2vid.com/help
+    about: Accounts, credits, billing and API keys.
+  - name: Report a security vulnerability
+    url: https://github.com/Tube2Vid/.github/blob/main/SECURITY.md
+    about: Report privately through GitHub security advisories, not in an issue.

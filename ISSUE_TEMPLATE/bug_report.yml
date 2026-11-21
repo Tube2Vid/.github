@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in this SDK, CLI or MCP server does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. If a download fails on a specific site, check https://tube2vid.com/status first. Never paste your API key.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Language / runtime version and OS
+      placeholder: "Node 22.11 on macOS 15"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the error message, HTTP status and error code if any.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: The smallest code or command that shows the problem.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: job
+    attributes:
+      label: Job ID (optional)
+      description: If a job was created, its ID helps us find it.
